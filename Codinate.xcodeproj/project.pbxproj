@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9505571AAD7CDD00A7CDEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9505561AAD7CDD00A7CDEA /* AppDelegate.swift */; };
+		9A9505591AAD7CDD00A7CDEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9505581AAD7CDD00A7CDEA /* ViewController.swift */; };
+		9A95055C1AAD7CDD00A7CDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A95055A1AAD7CDD00A7CDEA /* Main.storyboard */; };
+		9A95055E1AAD7CDD00A7CDEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A95055D1AAD7CDD00A7CDEA /* Images.xcassets */; };
+		9A9505611AAD7CDD00A7CDEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A95055F1AAD7CDD00A7CDEA /* LaunchScreen.xib */; };
+		9A95056D1AAD7CDD00A7CDEA /* CodinateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95056C1AAD7CDD00A7CDEA /* CodinateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9505671AAD7CDD00A7CDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9505491AAD7CDD00A7CDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9505501AAD7CDD00A7CDEA;
+			remoteInfo = Codinate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9505511AAD7CDD00A7CDEA /* Codinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9505551AAD7CDD00A7CDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9505561AAD7CDD00A7CDEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A9505581AAD7CDD00A7CDEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A95055B1AAD7CDD00A7CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A95055D1AAD7CDD00A7CDEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A9505601AAD7CDD00A7CDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A9505661AAD7CDD00A7CDEA /* CodinateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodinateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95056B1AAD7CDD00A7CDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A95056C1AAD7CDD00A7CDEA /* CodinateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodinateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A95054E1AAD7CDD00A7CDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9505631AAD7CDD00A7CDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9505481AAD7CDD00A7CDEA = {
+			isa = PBXGroup;
+			children = (
+				9A9505531AAD7CDD00A7CDEA /* Codinate */,
+				9A9505691AAD7CDD00A7CDEA /* CodinateTests */,
+				9A9505521AAD7CDD00A7CDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9505521AAD7CDD00A7CDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9505511AAD7CDD00A7CDEA /* Codinate.app */,
+				9A9505661AAD7CDD00A7CDEA /* CodinateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9505531AAD7CDD00A7CDEA /* Codinate */ = {
+			isa = PBXGroup;
+			children = (
+				9A9505561AAD7CDD00A7CDEA /* AppDelegate.swift */,
+				9A9505581AAD7CDD00A7CDEA /* ViewController.swift */,
+				9A95055A1AAD7CDD00A7CDEA /* Main.storyboard */,
+				9A95055D1AAD7CDD00A7CDEA /* Images.xcassets */,
+				9A95055F1AAD7CDD00A7CDEA /* LaunchScreen.xib */,
+				9A9505541AAD7CDD00A7CDEA /* Supporting Files */,
+			);
+			path = Codinate;
+			sourceTree = "<group>";
+		};
+		9A9505541AAD7CDD00A7CDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A9505551AAD7CDD00A7CDEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A9505691AAD7CDD00A7CDEA /* CodinateTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A95056C1AAD7CDD00A7CDEA /* CodinateTests.swift */,
+				9A95056A1AAD7CDD00A7CDEA /* Supporting Files */,
+			);
+			path = CodinateTests;
+			sourceTree = "<group>";
+		};
+		9A95056A1AAD7CDD00A7CDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A95056B1AAD7CDD00A7CDEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9505501AAD7CDD00A7CDEA /* Codinate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9505701AAD7CDD00A7CDEA /* Build configuration list for PBXNativeTarget "Codinate" */;
+			buildPhases = (
+				9A95054D1AAD7CDD00A7CDEA /* Sources */,
+				9A95054E1AAD7CDD00A7CDEA /* Frameworks */,
+				9A95054F1AAD7CDD00A7CDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codinate;
+			productName = Codinate;
+			productReference = 9A9505511AAD7CDD00A7CDEA /* Codinate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9505651AAD7CDD00A7CDEA /* CodinateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9505731AAD7CDD00A7CDEA /* Build configuration list for PBXNativeTarget "CodinateTests" */;
+			buildPhases = (
+				9A9505621AAD7CDD00A7CDEA /* Sources */,
+				9A9505631AAD7CDD00A7CDEA /* Frameworks */,
+				9A9505641AAD7CDD00A7CDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9505681AAD7CDD00A7CDEA /* PBXTargetDependency */,
+			);
+			name = CodinateTests;
+			productName = CodinateTests;
+			productReference = 9A9505661AAD7CDD00A7CDEA /* CodinateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9505491AAD7CDD00A7CDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Karin;
+				TargetAttributes = {
+					9A9505501AAD7CDD00A7CDEA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9A9505651AAD7CDD00A7CDEA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9A9505501AAD7CDD00A7CDEA;
+					};
+				};
+			};
+			buildConfigurationList = 9A95054C1AAD7CDD00A7CDEA /* Build configuration list for PBXProject "Codinate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9505481AAD7CDD00A7CDEA;
+			productRefGroup = 9A9505521AAD7CDD00A7CDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9505501AAD7CDD00A7CDEA /* Codinate */,
+				9A9505651AAD7CDD00A7CDEA /* CodinateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A95054F1AAD7CDD00A7CDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95055C1AAD7CDD00A7CDEA /* Main.storyboard in Resources */,
+				9A9505611AAD7CDD00A7CDEA /* LaunchScreen.xib in Resources */,
+				9A95055E1AAD7CDD00A7CDEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9505641AAD7CDD00A7CDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A95054D1AAD7CDD00A7CDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9505591AAD7CDD00A7CDEA /* ViewController.swift in Sources */,
+				9A9505571AAD7CDD00A7CDEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9505621AAD7CDD00A7CDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A95056D1AAD7CDD00A7CDEA /* CodinateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9505681AAD7CDD00A7CDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9505501AAD7CDD00A7CDEA /* Codinate */;
+			targetProxy = 9A9505671AAD7CDD00A7CDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A95055A1AAD7CDD00A7CDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A95055B1AAD7CDD00A7CDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A95055F1AAD7CDD00A7CDEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9505601AAD7CDD00A7CDEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A95056E1AAD7CDD00A7CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A95056F1AAD7CDD00A7CDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9505711AAD7CDD00A7CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codinate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A9505721AAD7CDD00A7CDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codinate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A9505741AAD7CDD00A7CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodinateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codinate.app/Codinate";
+			};
+			name = Debug;
+		};
+		9A9505751AAD7CDD00A7CDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodinateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codinate.app/Codinate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A95054C1AAD7CDD00A7CDEA /* Build configuration list for PBXProject "Codinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A95056E1AAD7CDD00A7CDEA /* Debug */,
+				9A95056F1AAD7CDD00A7CDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9505701AAD7CDD00A7CDEA /* Build configuration list for PBXNativeTarget "Codinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9505711AAD7CDD00A7CDEA /* Debug */,
+				9A9505721AAD7CDD00A7CDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A9505731AAD7CDD00A7CDEA /* Build configuration list for PBXNativeTarget "CodinateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9505741AAD7CDD00A7CDEA /* Debug */,
+				9A9505751AAD7CDD00A7CDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9505491AAD7CDD00A7CDEA /* Project object */;
+}
